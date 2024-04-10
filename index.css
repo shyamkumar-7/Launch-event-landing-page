@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-image: url('vr-game.jpg');
+    font-family: Arial, sans-serif;
+  }
+  
+  header {
+    color: rgb(253, 14, 14);
+    text-shadow: 2px 2px #df0ce3;
+    padding: 20px 0;
+    border-bottom: 3px solid rgb(234, 186, 186);
+  }
+  
+  .header-bg {
+    position: relative;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: rgb(5, 245, 241);
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .intro {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .intro h2 {
+    color: rgb(8, 109, 251);
+    font-size: 36px;
+    text-shadow: 2px 2px #090401;
+    font-weight: 600;
+  }
+  
+  .intro p {
+    padding-top: 2px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: rgb(5, 244, 244);
+    font-weight: 600;
+  }
+  
+  .cta-btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    margin-top: 6px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cta-btn:hover {
+    background-color: #cc5500;
+  }
+  
+  .event-details {
+    margin-bottom: 40px;
+  }
+  
+  .event-details h2 {
+    text-align: center;
+    margin-bottom: 42px;
+    color: wheat;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 24px;
+  }
+  
+  .detail {
+    text-align: center;
+    padding: 20px;
+    color: rgb(12, 228, 203);
+    border-radius: 5px;
+    background: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+    text-shadow: 3px -2px #e30cbf;
+  }
+  
+  .detail h3 {
+    margin: 10px 0;
+    font-size: 28px;
+  }
+  
+  .detail p {
+    font-size: 22px;
+  }
+  
+  footer {
+    background: transparent;
+    padding: 32px 0;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    text-shadow: 2px 2px #490ce3;
+  }
+  
+  .social-links {
+    list-style: none;
+    display: flex;
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .social-links li {
+    margin-right: 10px;
+  }
+  
+  .social-links li a {
+    color: rgb(5, 245, 241);
+    text-decoration: none;
+  }
+  
+  .contact-info p {
+    font-size: 22px;
+    font-weight: 600;
+    color: rgb(5, 245, 241);
+  }
+  .copyright {
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(41, 5, 245);
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 2px 1px #0c98e3;
+  }
+  
